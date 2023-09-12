@@ -1,0 +1,23 @@
+{
+  "name": "curso-lit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "web-dev-server --node-resolve --watch --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@web/dev-server": "^0.3.1"
+  },
+  "dependencies": {
+    "@dile/dile-menu-hamburger": "^3.0.4",
+    "@dile/dile-nav": "^1.0.4",
+    "@dile/dile-pages": "^2.1.0",
+    "@dile/dile-selector": "^2.0.5",
+    "lit": "^2.8.0"
+  }
+}
